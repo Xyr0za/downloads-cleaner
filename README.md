@@ -1,10 +1,10 @@
-# Downloads Folder Organizer
-A lightweight Python script that automatically declutters your Downloads folder by sorting files and folders into categorized subdirectories based on their file extensions.
+# Downloads Folder Organiser
+A lightweight Python script that automatically declutters your Downloads folder by sorting files and folders into categorised subdirectories based on their file extensions.
 
 ## Features
 Custom Categories: Define your own folder names and file extensions using a simple config.toml file.
 
-- Smart Folder Handling: Generic folders are moved to a designated directory, while macOS .app bundles are smartly categorized as Installers.
+- Smart Folder Handling: Generic folders are moved to a designated directory, while macOS .app bundles are smartly categorised as Installers.
 
 - Collision Protection: Never overwrites files. If a file with the same name already exists in the destination, it safely renames the new file (e.g., file_1.txt).
 
