@@ -1,0 +1,22 @@
+directory_target = "Folders"
+
+ignore_extensions = [
+    ".crdownload",
+    ".part",
+    ".download",
+    ".tmp"
+]
+
+dry_run = false
+
+[categories]
+"Images" = [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".ico", ".tiff", ".heic"]
+"Documents" = [".docx", ".doc", ".txt", ".rtf", ".odt", ".pages", ".epub"]
+"Spreadsheets" = [".xlsx", ".xls", ".csv", ".tsv"]
+"Presentations" = [".pptx", ".ppt", ".key"]
+"Archives" = [".zip", ".tar", ".gz", ".rar", ".7z", ".bz2", ".xz"]
+"Audio" = [".mp3", ".wav", ".aac", ".flac", ".ogg", ".m4a"]
+"Video" = [".mp4", ".mov", ".avi", ".mkv", ".webm", ".wmv"]
+"Code_Data" = [".py", ".js", ".html", ".css", ".json", ".xml", ".yaml", ".yml", ".sql", ".sh"]
+"Installers" = [".dmg", ".pkg", ".exe", ".msi", ".deb", ".appimage", ".app"]
+"Pdf" = [".pdf"]
