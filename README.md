@@ -2,7 +2,7 @@
 A lightweight Python script that automatically declutters your Downloads folder by sorting files and folders into categorised subdirectories based on their file extensions.
 
 ## Features
-Custom Categories: Define your own folder names and file extensions using a simple config.toml file.
+- Custom Categories: Define your own folder names and file extensions using a simple config.toml file.
 
 - Smart Folder Handling: Generic folders are moved to a designated directory, while macOS .app bundles are smartly categorised as Installers.
 
