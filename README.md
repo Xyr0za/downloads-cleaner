@@ -1,5 +1,5 @@
 # Downloads Folder Organiser
-A lightweight Python script that automatically declutters your Downloads folder by sorting files and folders into categorised subdirectories based on their file extensions.
+A lightweight Python script that declutters your Downloads folder by sorting files and directories into categorised subdirectories based on their file extensions.
 
 ## Features
 - Custom Categories: Define your own folder names and file extensions using a simple config.toml file.
