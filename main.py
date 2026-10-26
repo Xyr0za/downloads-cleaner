@@ -3,8 +3,12 @@ from pathlib import Path
 import tomllib
 
 
+import sys
 
-DOWNLOADS_DIR = Path.home() / "Downloads"
+if len(sys.argv) > 2:
+    DOWNLOADS_DIR = Path(sys.argv[2])
+else:
+    DOWNLOADS_DIR = Path.home() / "Downloads"
 
 with open(Path(__file__).parent / "config.toml", "rb") as f:
     config = tomllib.load(f)
