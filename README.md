@@ -20,3 +20,7 @@ Python 3.11 or higher (Required for the built-in tomllib module).
 1. Clone this repo 
 2. Configure *config.toml* as needed.
 3. Run *main.py*
+
+``bash
+python3 main.py "DOWNLOADS DIR"
+```
